@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "lipsi_tt"      # Project title
+  author:       "IITBBS"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "it is probably the smallest microcontroller"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, TL-Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -22,14 +22,14 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
+  ui[0]: "To select program/run"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
-  ui[7]: ""
+  ui[7]: "To select digit"
 
   # Outputs
   uo[0]: ""
